@@ -1,0 +1,13 @@
+{% extends 'master.twig' %}
+
+{% block content %}
+<h4 class="modal-title">Paste your Url and Click</h4>
+<form action="/capture" method="GET" class="form-group form-horizontal" target="_blank">
+    <div class="control-group">
+        <input class="input url" type="text" name="url" />
+    </div>
+    <div class="control-group">
+        <input type="submit" value="Capture" class="btn-primary btn" />
+    </div>
+</form>
+{% endblock %}

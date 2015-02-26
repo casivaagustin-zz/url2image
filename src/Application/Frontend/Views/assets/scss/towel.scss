@@ -1,0 +1,4 @@
+//Functions.
+@function assets_url($path) {
+  @return '/assets?application=' + $application + '&path=' + $path ';';
+}

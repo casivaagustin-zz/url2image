@@ -1,0 +1,76 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+body {
+  background: #000;
+}
+
+.page.container-fluid {
+  margin-top: 20px;
+  border: 2px solid #eee;
+}
+
+.page {
+  background-color: #fff;
+}
+.page .header h1 {
+  text-align: left;
+  color: cornflowerblue;
+  font-size: 52px;
+}
+.page .header .legend {
+  ont-size: 18px;
+  color: #999;
+  font-style: italic;
+  margin: 20px 30px;
+  display: block;
+  text-shadow: 1px 1px 1px #ddd;
+}
+.page a.navbar-brand {
+  font-weight: bold;
+  color: #aaa !important;
+  text-shadow: 1px 1px 1px #eee;
+}
+.page .content {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 10px 40px 10px;
+}
+.page .content .navbar-default {
+  margin-bottom: 40px;
+}
+.page #footer {
+  color: #f47321;
+  text-align: center;
+  margin: 30px;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: italic;
+}
+.page .control-group {
+  text-align: center;
+}
+.page .content {
+  text-align: center;
+}
+.page .input.url {
+  width: 100%;
+  margin: 20px;
+  padding: 10px;
+  color: brown;
+}
+
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .page {
+    width: 992px;
+    margin: 0 auto;
+  }
+  .page .content {
+    text-align: left;
+  }
+}

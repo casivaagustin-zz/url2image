@@ -1,0 +1,71 @@
+body {
+  background: #000;
+
+}
+
+.page.container-fluid {
+  margin-top: 20px;
+  border: 2px solid #eee;
+}
+
+.page {
+  background-color: #fff;
+
+  .header {
+    h1 {
+      text-align: left;
+      color: cornflowerblue;
+      font-size: 52px;
+    }
+    .legend {
+      ont-size: 18px;
+      color: #999;
+      font-style: italic;
+      margin: 20px 30px;
+      display: block;
+      text-shadow: 1px 1px 1px #ddd;
+    }
+
+  }
+
+  a.navbar-brand {
+    font-weight: bold;
+    color: #aaa !important;
+    text-shadow: 1px 1px 1px #eee;
+  }
+
+  .content {
+    .navbar-default {
+      margin-bottom: 40px;
+    }
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 10px 40px 10px;
+  }
+
+  #footer {
+    color: #f47321;
+    text-align: center;
+    margin: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .control-group {
+    text-align: center;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .input {
+    &.url {
+      width: 100%;
+      margin: 20px;
+      padding: 10px;
+      color: brown;
+    }
+  }
+}

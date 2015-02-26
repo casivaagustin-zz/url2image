@@ -1,0 +1,9 @@
+.idea
+.DS_Store
+.db
+*.sql
+vendor
+composer.bu.json
+cache
+.sass-cache
+uploads
